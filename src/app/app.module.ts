@@ -10,6 +10,7 @@ import { InventoryComponent } from './pages/inventory/inventory.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
+import { WhoAmIComponent } from './pages/who-am-i/who-am-i.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
     CardComponent,
     InventoryComponent,
     BlogComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    WhoAmIComponent
   ],
   imports: [
     BrowserModule,
